@@ -76,9 +76,9 @@ return $response->file(\alias('@runtime/1.zip'), "application/octet-stream");
 ## 设置Cookies
 
 ```php
-$response = $response->withCookie(’name', 'value');
+$response = $response->withCookie('name', 'value');
 
-$response = $response->withCookie(’name', [
+$response = $response->withCookie('name', [
     'value'    => 'value3',
     'httpOnly' => true
 ]);
